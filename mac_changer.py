@@ -30,9 +30,12 @@ while True:
 		os.system("ifconfig eth0 up")
 
 	elif prcs == "3":
-		print("\033[91m[-] Exiting the program...\033[0m")
+		print("\033[91m[-] Exiting the program...\033[0m\n")
 		break
 	
 	else:
 		print("You made the wrong decision! Restarting...")
 		os.system("python3 mac_changer.py")
+
+
+print("see you later\033[92m")
